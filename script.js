@@ -1,8 +1,10 @@
 console.log("Hello World!");
 
+// Favorite foods array
 // 1. Create an array called favoriteFoods with at least 6 foods you love.
 let favoriteFoods = ["Pasta", "Tacos", "Wings", "Burgers", "Bagels", "Pancakes"];
 
+// Loop through favorite foods
 // 2. Loop through the list and print: "One of my favorite foods is ______."
 for (let i = 0; i < favoriteFoods.length; i++) {
     console.log("One of my favorite foods is " + favoriteFoods[i] + ".");
@@ -16,6 +18,7 @@ for (let i = 0; i < favoriteFoods.length; i++) {
     console.log("My #" + (i + 1) + " favorite food is " + favoriteFoods[i] + ".");
 }
 
+// Food recommendation function
 // 4a. Create a function printFoodRecommendation(foodName) that prints out the following for the foodName provided
 // "Have you ever tried ____?"
 // "I always recommend ____ to friends."
@@ -52,7 +55,7 @@ for (let i = 0; i < friendFavorites.length; i++) {
     }
 }
 
-console.log(foodsWithA);
+console.log("Foods with the letter a:", foodsWithA);
 
 // 7. Create a new array longFoodNames for foods with names longer than 6 characters.
 let longFoodNames = [];
@@ -74,8 +77,8 @@ for (let i = 0; i < friendFavorites.length; i++) {
 
 // 9. Print both arrays and compare:
 // "There are more long-named foods." OR "There are more short-named foods."
-console.log("Long food names:", longFoodNames);
-console.log("Short food names:", shortFoodNames);
+console.log("Long food names array:", longFoodNames);
+console.log("Short food names array:", shortFoodNames);
 
 if (longFoodNames.length > shortFoodNames.length) {
     console.log("There are more long-named foods.");
